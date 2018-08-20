@@ -12,6 +12,7 @@ namespace GestionaleWinUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Text += $" Ver.{Application.ProductVersion}";
         }
 
         private void cmdArticoli_Click(object sender, EventArgs e)
