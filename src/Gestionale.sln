@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionaleWinUI", "GestionaleWinUI\GestionaleWinUI.csproj", "{5E9CBA3A-92B3-481F-BCEF-05B389183B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestionale.Commons", "Gestionale.Commons\Gestionale.Commons.csproj", "{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E9CBA3A-92B3-481F-BCEF-05B389183B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9CBA3A-92B3-481F-BCEF-05B389183B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9CBA3A-92B3-481F-BCEF-05B389183B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9CBA3A-92B3-481F-BCEF-05B389183B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F53ABA2-5872-493D-9E6C-DF5D72F49B7B}
+	EndGlobalSection
+EndGlobal
