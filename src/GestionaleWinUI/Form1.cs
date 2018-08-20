@@ -17,12 +17,10 @@ namespace GestionaleWinUI
 
         private void cmdArticoli_Click(object sender, EventArgs e)
         {
-            Text += $" Ver.{Application.ProductVersion}";
         }
 
         private void cmdOrdini_Click(object sender, EventArgs e)
         {
-            Text += $" Ver.{Application.ProductVersion}";
         }
 
         private void tsmUtenti_Click(object sender, EventArgs e)
