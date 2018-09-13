@@ -69,6 +69,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormArticoli.resx">
+      <DependentUpon>FormArticoli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormOrdini.resx">
+      <DependentUpon>FormOrdini.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -95,6 +101,10 @@
     <ProjectReference Include="..\Gestionale.Commons\Gestionale.Commons.csproj">
       <Project>{aaa213db-e9c1-48b3-8ff7-40b39d771da2}</Project>
       <Name>Gestionale.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gestionale.Core\Gestionale.Core.csproj">
+      <Project>{ed6b9619-e296-4e62-a4e5-b63f338fd162}</Project>
+      <Name>Gestionale.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

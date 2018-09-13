@@ -16,5 +16,11 @@ namespace GestionaleWinUI.Forms
         {
             InitializeComponent();
         }
+
+        private void FormOrdini_Load(object sender, EventArgs e)
+        {
+            var applicazione = Gestionale.Core.App.GetInstance();
+
+        }
     }
 }

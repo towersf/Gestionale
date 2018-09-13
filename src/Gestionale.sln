@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionaleWinUI", "Gestiona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestionale.Commons", "Gestionale.Commons\Gestionale.Commons.csproj", "{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestionale.Core", "Gestionale.Core\Gestionale.Core.csproj", "{ED6B9619-E296-4E62-A4E5-B63F338FD162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA213DB-E9C1-48B3-8FF7-40B39D771DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6B9619-E296-4E62-A4E5-B63F338FD162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6B9619-E296-4E62-A4E5-B63F338FD162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6B9619-E296-4E62-A4E5-B63F338FD162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6B9619-E296-4E62-A4E5-B63F338FD162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
